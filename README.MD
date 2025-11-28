@@ -64,7 +64,7 @@ Screenshot Inisial :
 
 ### Jawaban
 1. Tidak, bisa bertipe data lain, void berarti fungsi dijalankan tetapi tidak ada nilai yang dikembalikan setelah di-call, sedangkan jika ada yang perlu di-return, maka harus dalam sebuah tipe data dan variabel dengan sintaks return di dalam kode fungsi.
-2. [Kafe08.java](/Kafe08.java)  
+2. [Kafe08.java (Commit 371e599)](https://github.com/okeokke/daspro-jobsheet12/commit/371e59938e8e26a411a88493ceed5e155a853a07)  
 ![Percobaan1Nomor2](P1N2.png)
 3. Ibarat mengelompokkan sebagian kode tertentu menjadi sebuah modul bongkar-pasang/lego yang bisa digunakan atau tidak kapan saja tergantung kebutuhan (bersifat lebih modular), membuat kode utama bisa lebih rapih dan lebih mudah dibaca.
 4. Program mulai dari fungsi main -> main menjalankan call ke fungsi menu -> program menjalankan isi kode fungsi menu dan mengeluarkan output berdasarkan isi kode fungsi sampai selesai (return void) -> setelah selesai menjalankan fungsi, program kembali ke fungsi main -> program berlanjut sampai selesai.
@@ -75,9 +75,9 @@ Screenshot Inisial :
 ---
 
 ## Percobaan 2
-[<nama file>](<link>)
-Screenshot:
-<img>  
+[Kafe08.java](/Kafe08.java)  
+Screenshot Inisial:  
+![Percobaan2 Initial](P1N0.png)  
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
