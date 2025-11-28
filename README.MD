@@ -48,9 +48,9 @@ Contoh output:
 ---
 
 ## Percobaan 1
-[<nama file>](<link>)
-Screenshot:
-<img>  
+[Kafe08.java](/Kafe08.java)  
+Screenshot Inisial :  
+![<daspro-jobsheet12/P1N0.png>](P1N0.png)  
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
