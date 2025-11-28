@@ -48,7 +48,7 @@ Contoh output:
 ---
 
 ## Percobaan 1
-[Kafe08.java](/Kafe08.java)  
+[Kondisi awal Kafe08.java (Commit 713c7e8)](https://github.com/okeokke/daspro-jobsheet12/commit/713c7e8e85099268dc0c7f8f820146abe8a655f5)  
 Screenshot Inisial :  
 ![<daspro-jobsheet12/P1N0.png>](P1N0.png)  
   
@@ -63,10 +63,11 @@ Screenshot Inisial :
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
 ### Jawaban
-1. 
-2. 
-3. 
-4. 
+1. Tidak, bisa bertipe data lain, void berarti fungsi dijalankan tetapi tidak ada nilai yang dikembalikan setelah di-call, sedangkan jika ada yang perlu di-return, maka harus dalam sebuah tipe data dan variabel dengan sintaks return di dalam kode fungsi.
+2. [Kafe08.java](/Kafe08.java)  
+![Percobaan1Nomor2](P1N2.png)
+3. Ibarat mengelompokkan sebagian kode tertentu menjadi sebuah modul bongkar-pasang/lego yang bisa digunakan atau tidak kapan saja tergantung kebutuhan (bersifat lebih modular), membuat kode utama bisa lebih rapih dan lebih mudah dibaca.
+4. Program mulai dari fungsi main -> main menjalankan call ke fungsi menu -> program menjalankan isi kode fungsi menu dan mengeluarkan output berdasarkan isi kode fungsi sampai selesai (return void) -> setelah selesai menjalankan fungsi, program kembali ke fungsi main -> program berlanjut sampai selesai.
   
 
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
