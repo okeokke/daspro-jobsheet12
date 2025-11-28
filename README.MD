@@ -75,9 +75,9 @@ Screenshot Inisial :
 ---
 
 ## Percobaan 2
-[Kafe08.java](/Kafe08.java)  
+[Kafe08.java (Commit e22fb71)](https://github.com/okeokke/daspro-jobsheet12/commit/e22fb7146a8225b1d5eda3d3f66fd40550da761a)  
 Screenshot Inisial:  
-![Percobaan2 Initial](P1N0.png)  
+![Percobaan2 Initial](P2N0.png)  
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
@@ -96,11 +96,11 @@ perbedaan output ketika isMember bernilai true dan ketika false?
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
 ### Jawaban
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Untuk memberi nilai pada variabel yang dibutuhkan dalam suatu fungsi.
+2. Karena isi kode pada fungsi membutuhkan/menggunakan 2 variabel tersebut (terletak pada bagian `System.out.println("Selamat datang, "+ namaPelanggan + "!")` dan `if (isMember) {...}`), yang juga bisa membuat kode fungsi lebih fleksibel karena value tidak diatur dalam kode fungsi, tetapi diluarnya, yang lalu 'diumpan' ke dalam eksekusi fungsi tersebut
+3. Hampir sama, parameter kurang lebih berfungsi sebagai penampung nilai sebuah variabel yang digunakan di dalam fungsi tersebut. 
+4. `isMember` ber-tipe data boolean, nilainya bisa `true` atau `false`, jika `true` outputnya `Anda adalah member ...`, jika `false` bagian itu dilewati (tidak ada kode lain yang dieksekusi jika false, jadi melanjutkan sisa kodenya.)
+5. Program tidak bisa dicompile/dijalankan, karena secara efektif seperti menggunakan variabel, tanpa melakukan deklarasi dan inisisasi, programnya bingung disuruh menggunakan variabel yang nggak ada nilainya dan 'nggak pernah diadakan.'
 6. 
 7. 
 8. 
