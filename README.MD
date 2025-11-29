@@ -138,9 +138,11 @@ Screenshot Inisial :
 Artinya :  
 pilihanMenu = variabel yang menerima nilai nomor menu yang dipilih user, digunakan sebagai indeks harga.  
 banyakItem = variabel yang menerima nilai jumlah porsi yang dipesan user, langsung mempengaruhi perhitungan harga.
-3. [Kafe08.java](/Kafe08.java)  
+3. [Kafe08.java (Commit 44db6bd)](https://github.com/okeokke/daspro-jobsheet12/commit/44db6bd423db5b0a2ec9a105cc2193b247881550)  
 ![No3](P3N3.png)
-4. 
+4. [Kafe08.java](/Kafe08.java)  
+![No4](P3N4.png)
+
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 

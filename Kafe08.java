@@ -4,15 +4,22 @@ public class Kafe08 {
   public static void main(String[] args) {
     System.out.print("Masukkan kode promo : ");
     String kodePromo = sc.nextLine(); 
-    Menu("Budi", true, kodePromo);
-    System.out.print("\nMasukkan nomor menu yang ingin Anda pesan: ");
-    int pilihanMenu = sc.nextInt();
-    System.out.print("Jumlah porsi yang dipesan : ");
-    int banyakItem = sc.nextInt(); sc.nextLine();
 
-    int totalHarga = hitungTotalHarga08(pilihanMenu, banyakItem, kodePromo);
+    int totalKeseluruhan = 0;
+    String lanjut="y";
+    Menu("Budi", true, kodePromo);
+    do {
+      System.out.print("\nMasukkan nomor menu yang ingin Anda pesan: ");
+      int pilihanMenu = sc.nextInt();
+      System.out.print("Jumlah porsi yang dipesan : ");
+      int banyakItem = sc.nextInt(); sc.nextLine();
+  
+      totalKeseluruhan += hitungTotalHarga08(pilihanMenu, banyakItem, kodePromo);
+      System.out.print("Pesan menu lain? (y/n) : ");
+      lanjut=sc.nextLine();
+    } while (lanjut.equalsIgnoreCase("y"));
     
-    System.out.println("Total harga untuk pesanan Anda: Rp"+totalHarga);
+    System.out.println("Total harga untuk pesanan Anda: Rp"+totalKeseluruhan);
   } 
   public static int hitungTotalHarga08 (int pilihanMenu, int banyakItem, String kodePromo) {
       int[] hargaItems = {15000, 20000, 22000, 12000, 10000, 18000};
