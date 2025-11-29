@@ -149,9 +149,9 @@ banyakItem = variabel yang menerima nilai jumlah porsi yang dipesan user, langsu
 ---
 
 ## Percobaan 4
-[<nama file>](<link>)
-Screenshot:
-<img>
+[PengunjungCafe08.java](/PengunjungCafe08.java)  
+Screenshot:  
+![Percobaan4](P4N0.png)
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
