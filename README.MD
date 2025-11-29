@@ -101,9 +101,16 @@ perbedaan output ketika isMember bernilai true dan ketika false?
 3. Hampir sama, parameter kurang lebih berfungsi sebagai penampung nilai sebuah variabel yang digunakan di dalam fungsi tersebut. 
 4. `isMember` ber-tipe data boolean, nilainya bisa `true` atau `false`, jika `true` outputnya `Anda adalah member ...`, jika `false` bagian itu dilewati (tidak ada kode lain yang dieksekusi jika false, jadi melanjutkan sisa kodenya.)
 5. Program tidak bisa dicompile/dijalankan, karena secara efektif seperti menggunakan variabel, tanpa melakukan deklarasi dan inisisasi, programnya bingung disuruh menggunakan variabel yang nggak ada nilainya dan 'nggak pernah diadakan.'
-6. 
-7. 
-8. 
+6. [Kafe08.java](/Kafe08.java)
+7.
+ ```java
+...
+Menu("Budi", true, "DISKON30");
+...
+```
+![P2N7.png](P2N7.png)
+  
+8. Ya, kalau pake fungsi, bagian yang menghitung (fungsi) dipisahkan dari nilai/data yang dipakai di algoritma fungsi, kalau dua hal itu jadi satu, algoritma jadinya kaku dan jaddi lebih susah jika ingin digunakan lagi di keadaan lain. lalu kalau ingin ada fitur tambahan, tidak banyak dari algoritma yang di dalam fungsi yang perlu dimodifikasi, dan hanya tinggal menambah parameter juga.
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
@@ -124,6 +131,7 @@ Screenshot:
   
 
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
+
 ### Jawaban
 1. 
 2. 
@@ -149,6 +157,7 @@ Screenshot:
   
 
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
+  
 ### Jawaban
 1. 
 2. 
