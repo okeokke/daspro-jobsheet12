@@ -101,7 +101,7 @@ perbedaan output ketika isMember bernilai true dan ketika false?
 3. Hampir sama, parameter kurang lebih berfungsi sebagai penampung nilai sebuah variabel yang digunakan di dalam fungsi tersebut. 
 4. `isMember` ber-tipe data boolean, nilainya bisa `true` atau `false`, jika `true` outputnya `Anda adalah member ...`, jika `false` bagian itu dilewati (tidak ada kode lain yang dieksekusi jika false, jadi melanjutkan sisa kodenya.)
 5. Program tidak bisa dicompile/dijalankan, karena secara efektif seperti menggunakan variabel, tanpa melakukan deklarasi dan inisisasi, programnya bingung disuruh menggunakan variabel yang nggak ada nilainya dan 'nggak pernah diadakan.'
-6. [Kafe08.java](/Kafe08.java)
+6. [Kafe08.java (Commit 2e999a6)](https://github.com/okeokke/daspro-jobsheet12/commit/2e999a62e4e0dc1fd77261617a4ae2a9b58ffb3f)
 7.
  ```java
 ...
@@ -116,10 +116,10 @@ Menu("Budi", true, "DISKON30");
 
 ---
 
-## Percobaan 3
-[<nama file>](<link>)
-Screenshot:
-<img>  
+## Percobaan 3  
+[Kafe08.java](/Kafe08.java)  
+Screenshot Inisial :  
+  ![Percobaan3 Initial](P3N0.png)
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
@@ -157,7 +157,7 @@ Screenshot:
   
 
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
-  
+
 ### Jawaban
 1. 
 2. 
