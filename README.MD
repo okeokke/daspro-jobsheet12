@@ -117,7 +117,7 @@ Menu("Budi", true, "DISKON30");
 ---
 
 ## Percobaan 3  
-[Kafe08.java](/Kafe08.java)  
+[Kafe08.java (Commit b7388f2)](https://github.com/okeokke/daspro-jobsheet12/commit/b7388f21e4c7478f209eb09a5ffd7c45a7ac2f2d)  
 Screenshot Inisial :  
   ![Percobaan3 Initial](P3N0.png)
   
@@ -138,7 +138,8 @@ Screenshot Inisial :
 Artinya :  
 pilihanMenu = variabel yang menerima nilai nomor menu yang dipilih user, digunakan sebagai indeks harga.  
 banyakItem = variabel yang menerima nilai jumlah porsi yang dipesan user, langsung mempengaruhi perhitungan harga.
-3. 
+3. [Kafe08.java](/Kafe08.java)  
+![No3](P3N3.png)
 4. 
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
