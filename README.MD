@@ -133,8 +133,11 @@ Screenshot Inisial :
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
 ### Jawaban
-1. 
-2. 
+1. Fungsi perlu return value kalau ada hasil yang dikeluarkan yang akan digunakan di luar fungsi. Fungsi tidak perlu return kalau cuma menampilkan/mengeksekusi sesuatu (void).
+2. Tipe return: int. Parameter: int pilihanMenu, int banyakItem.  
+Artinya :  
+pilihanMenu = variabel yang menerima nilai nomor menu yang dipilih user, digunakan sebagai indeks harga.  
+banyakItem = variabel yang menerima nilai jumlah porsi yang dipesan user, langsung mempengaruhi perhitungan harga.
 3. 
 4. 
   
