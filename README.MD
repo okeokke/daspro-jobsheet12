@@ -149,7 +149,7 @@ banyakItem = variabel yang menerima nilai jumlah porsi yang dipesan user, langsu
 ---
 
 ## Percobaan 4
-[PengunjungCafe08.java](/PengunjungCafe08.java)  
+[PengunjungCafe08.java (Commit 74bc676)](https://github.com/okeokke/daspro-jobsheet12/commit/74bc67684434e9ec21efc00d7ea0ad8c456d7ac7)  
 Screenshot:  
 ![Percobaan4](P4N0.png)
   
@@ -165,10 +165,24 @@ Screenshot:
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
 ### Jawaban
-1. 
-2. 
-3. 
-4. 
+1. di Percobaan 4 menggunakan varargs yang di lihat dari kata-nya dari bahasa inggris itu kurang lebih 'variable arguments' jadi untuk satu pasang tipedata-variabel yang digunakan untuk parameter, bisa memuat lebih dari satu nilai yang dijadikan/diibaratkan menjadi array di dalam fungsi. berguna untuk satu tipedata/variabel yang perlu/bisa memuat beberapa butir nilai.  
+Contoh yang sama jika tidak pakai varargs akan lebih rumit menjadi seperti ini  
+```java
+daftarPengunjung(String a);
+daftarPengunjung(String a, String b);
+daftarPengunjung(String a, String b, String c);
+``` 
+2. [PengunjungCafe08.java](/PengunjungCafe08.java)
+3. tidak bisa ada dua varargs dalam satu fungsi, dan varargs tidak boleh berada di tengah parameter, harus di bagian paling akhir.
+```java
+static void fungsi(int a, int b, int... c)
+```
+selain contoh ini, seperti menempatkan varargs di bagian awal kurung tidak valid (error) dan tidak akan bisa dicompile/dijalankan  
+4. Program masih bisa jalan, Karena namaPengunjung.length == 0, Outputnya :  
+```
+Daftar nama pengunjung: 
+```
+loop tidak masuk/tereksekusi dan hanya perintah output yang berhasil tampil.
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
