@@ -189,7 +189,12 @@ loop tidak masuk/tereksekusi dan hanya perintah output yang berhasil tampil.
 ---
 
 ## Percobaan 5  
-  
+(Sebelum Menggunakan Fungsi)
+[HitungBalok08.java](/HitungBalok08.java)  
+Screenshot:  
+![Percobaan5_1](P5N0_1.png)  
+
+  (Setelah Menggunakan Fungsi)
 
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
