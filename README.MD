@@ -190,11 +190,14 @@ loop tidak masuk/tereksekusi dan hanya perintah output yang berhasil tampil.
 
 ## Percobaan 5  
 (Sebelum Menggunakan Fungsi)
-[HitungBalok08.java](/HitungBalok08.java)  
+[HitungBalok08.java (Commit 385724a)](https://github.com/okeokke/daspro-jobsheet12/commit/385724ac24140c2be9dff9c349d167718b652868)  
 Screenshot:  
 ![Percobaan5_1](P5N0_1.png)  
 
-  (Setelah Menggunakan Fungsi)
+(Setelah Menggunakan Fungsi)
+[HitungBalok08.java](/HitungBalok08.java)  
+Screenshot:  
+![Percobaan5_2](P5N0_2.png)  
 
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
 
