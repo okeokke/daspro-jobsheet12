@@ -1,32 +1,77 @@
-<!-- # TUGAS
-### TUGAS 1
+  # [Tugas](#tugas)  
+  # [Daftar_Percobaan](#daftar_percobaan)  
 
-Soal:
+# TUGAS
+  
+### TUGAS 1    
+Soal :  
+Buatlah  sebuah  class  KubusNoAbsen  yang  di dalamnya  terdapat  fungsi  untuk menghitung volume kubus dan luar permukaan kubus!  
+[Kubus08.java](/Kubus08.java)  
+Contoh output:  
+![Tugas 1](T1Job12.png)  
 
-[Tugas1 / <nama file>.java](<link>)
+---  
+
+### TUGAS 2  
+Soal :  
+Di  suatu  kelas,  terdapat  N  mahasiswa  yang  mengikuti  satu  mata  kuliah.  Nilai  tiap 
+mahasiswa untuk mata kuliah tersebut akan diinputkan oleh pengguna dan 
+disimpan dalam sebuah array 1 dimensi berukuran N. Buatlah sebuah class 
+NilaiMahasiswaNoAbsen yang di dalamnya terdapat beberapa fungsi berikut:  
+1. Fungsi isianArray untuk:   
+- Mengisi elemen-elemen array dengan nilai yang diinputkan oleh user 
+(jumlah elemen = N, dibaca dari input)   
+2. Fungsi tampilArray untuk:  
+- Menerima parameter berupa array nilai mahasiswa 
+- Menampilkan seluruh nilai yang telah diinputkan  
+3. Fungsi hitTot untuk:  
+- Menerima parameter berupa array nilai mahasiswa 
+- Menghitung dan mengembalikan total nilai seluruh mahasiswa (return tipe int atau double)  
+4. Fungsi main untuk:  
+- Membaca nilai N (jumlah mahasiswa) dari input pengguna 
+- Membuat array dengan ukuran N 
+- Memanggil fungsi isianArray, tampilArray, dan hitTot 
+- Menampilkan total nilai yang dikembalikan oleh fungsi hitTot
+
+[]()
 
 Contoh output:
-<link video / gambar>
 
-### TUGAS 2
 
-Soal:
+### TUGAS 3  
+Soal :  
+Ibu  Mariana  mengelola  sebuah  kafe.  Berikut  adalah rekap  penjualan  5  menu  dari 
+hari pertama hingga ketujuh: 
+![Tabel untuk Soal 3](T3_Soal.png)
+1. Buatlah sebuah class RekapPenjualanCafeNoAbsen yang digunakan untuk 
+menyimpan dan mengolah data penjualan 5 menu kafe dari hari pertama hingga 
+hari  ketujuh.  Di  dalam  class  tersebut,  buat  dan  gunakan  beberapa fungsi 
+(method) berikut: 
+- Fungsi  untuk  menginputkan  data  penjualan  setiap  menu  untuk  setiap  hari 
+(petunjuk: menggunakan array 2 dimensi). 
+- Fungsi untuk menampilkan seluruh data penjualan dari hari pertama hingga 
+hari terakhir dalam bentuk tabel 
+- Fungsi  untuk  menampilkan  menu  yang  memiliki  total  penjualan  tertinggi 
+selama tujuh hari (tampilkan nama menu dan total penjualannya). 
+- Fungsi  untuk  menampilkan  rata-rata  penjualan  untuk  setiap  menu  selama 
+tujuh hari (tampilkan nama menu dan nilai rata-ratanya). 
+Gunakan fungsi main untuk: 
+- Memanggil fungsi input data penjualan, 
+- Menampilkan seluruh data penjualan, 
+- Menampilkan menu dengan penjualan tertinggi, dan 
+- Menampilkan rata-rata penjualan untuk setiap menu. 
+ 
+2. Modifikasi program pada 3 (a/1) sehingga jumlah hari penjualan dan jumlah menu 
+dibaca dari input pengguna, lalu sesuaikan ukuran array dan proses perhitungan 
+agar tetap berjalan dengan benar. 
 
-[Tugas2 / <nama file>.java](<link>)
+[]()
 
 Contoh output:
-<link video / gambar>
-
-### TUGAS 3
-
-Soal:
-
-[Tugas3 / <nama file>.java](<link>)
-
-Contoh output:
-<link video / gambar> -->
-
----
+  
+---  
+  
+---  
 
 # Daftar_Percobaan
 1. [Percobaan 1](#percobaan-1)
