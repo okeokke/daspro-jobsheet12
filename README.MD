@@ -212,11 +212,11 @@ public class programku {
       System.out.print(j);
     }
   }
-  public static int Jumlah (int bill, int bil2) {
-    return (bill + bil2);
+  public static int Jumlah (int bil1, int bil2) {
+    return (bil1 + bil2);
   }
-  public static void TampilJumlah (int bill, int bil2) {
-    TampilHinggaKei (Jumlah (bill, bil2));
+  public static void TampilJumlah (int bil1, int bil2) {
+    TampilHinggaKei (Jumlah (bil1, bil2));
   }
   public static void main (String[] args) {
     int temp = Jumlah (1, 1);
@@ -233,11 +233,36 @@ public class programku {
 
 ### Jawaban
 1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+- Program start → main() dieksekusi.
+- Program meminta minta input panjang, lebar, dan tinggi. input user lalu disimpan/diassign nilainya ke variabel p, l, dan t.  
+- Program memanggil hitungLuas(p,l), menaruh nilai dari p, dan l ke parameter variabel yang diperlukan fungsi hitungLuas, lalu return hasilnya `p*l`, dimana hasilnya masuk ke variabel L. lalu mencetak `Luas persegi panjang adalah L(hasil return fungsi hitungLuase)`.  
+- Program memanggil hitungVolume(t,p,l), di dalamnya memanggil lagi fungsi hitungLuas(a,b) yang mereturn Luas yang lalu dikalikan dengan `tinggi` dan diassign ke variabel lokal volume sebelum direturn oleh fungsi. lalu mencetak `Volume balok adalah vol(hasil return fungsi hitungVolume)`.  
+- Program selesai.  
+2.   
+![No.2](P5N2.png)  
+- User menginput/assign value 4, 3, 5 pada var p, l, t.  
+- fungsi `hitungLuas(p, l)` dipanggil, nilai variabel `p, l` di-umpan ke dalam fungsi sebagai `pjg, lb`
+- fungsi melakukan operasi perkalian pada kedua var tersebut untuk diassign nilainya pada var.lokal `Luas` dan me-return nilai var.lokal `Luas` yang lalu di-assign pada var 'L'(main) lalu dicetak.  
+- fungsi `hitungVolume(t, p, l)` dipanggil, nilai var `t, p, l` di-umpan ke dalam fungsi sebagai `tinggi, a, b`
+- fungsi hitungVolume memanggil fungsi hitungLuas dan mengumpan value var.lokal `a, b` ke fungsi hitungLuas, dan hasil return-nya dilakukan operasi kali dengan var.lokal `tinggi`, nilainya lalu di-assign ke var.lokal `volume` yang lalu di-return hasilnya ke fungsi main yang diassign pada var `vol` yang lalu dicetak.  
+3.   
+- Program mulai dari fungsi main
+- fungsi `Jumlah` dipanggil dengan memberi value `(1, 1)` pada parameternya yang diumpan ke dalam fungsi dalam bentuk variabel `bil1, bil2`
+- fungsi `Jumlah` melakukan return dari hasil operasi `bil1+bil2`
+- hasil return fungsi `Jumlah` diassign pada var.lok `temp`(main)
+- fungsi `TampilJumlah(temp,5)` dipanggil. Di dalamnya, program hitung `Jumlah(temp,5)` -> `Jumlah(2,5)` -> hasil 7.
+- setelah dapat angka 7, program memanggil `TampilHinggaKei(7)`.
+Fungsi melakukan loop dari 1 sampai 7 dan mencetak setiap angkanya tanpa spasi.  
+Alurnya kurang lebih : hitung 1+1 -> hitung 2+5 -> print angka 1-7.
+```output
+1234567
+```  
+4. Parameter dipakai ketika fungsi butuh data dari luar fungsi, bukan data yang ada di dalamnya.
+Parameter tidak perlu digunakan jika fungsi bisa bekerja tanpa butuh input luar.
+Return digunakan saat fungsi harus mengembalikan hasil yang akan dipakai lagi.
+Return tidak perlu digunakan jika kegunaan fungsi hanya menjalankan aksi (misal print saja, atau menggunakan var.global).  
+5. `hitungLuas` dan `hitungVolume` pakai parameter karena nilai panjang/lebar/tinggi tidak diketahui di dalam fungsi, memerlukan nilai yang di-input di luar fungsi. jika semua data sudah memiliki value di dalam fungsi (atau misal fungsi hanya cetak pesan tetap), parameter tidak diperlukan.
+6. `hitungLuas` dan `hitungVolume` punya return karena hasilnya masih dipakai (ditampung ke variabel, dicetak). `main` tidak perlu return karena `main` hanya mengatur alur program, bukan menghitung nilai untuk dipakai lagi. Kalau fungsi hanya menjalankan instruksi tanpa perlu mengembalikan sesuatu (misal hanya print), maka tidak butuh return.
   
   
   [Kembali ke #Daftar_Percobaan](#daftar_percobaan)
