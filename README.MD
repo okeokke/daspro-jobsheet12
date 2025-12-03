@@ -33,10 +33,10 @@ NilaiMahasiswaNoAbsen yang di dalamnya terdapat beberapa fungsi berikut:
 - Memanggil fungsi isianArray, tampilArray, dan hitTot 
 - Menampilkan total nilai yang dikembalikan oleh fungsi hitTot
 
-[]()
+[NilaiMahasiswa08.java](/NilaiMahasiswa08.java)  
 
-Contoh output:
-
+Contoh output:  
+![Tugas 2](T2Job12.png)
 
 ### TUGAS 3  
 Soal :  
