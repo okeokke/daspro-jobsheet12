@@ -65,10 +65,14 @@ Gunakan fungsi main untuk:
 dibaca dari input pengguna, lalu sesuaikan ukuran array dan proses perhitungan 
 agar tetap berjalan dengan benar. 
 
-[RekapPenjualanCafe08.java](RekapPenjualanCafe08.java)
+[RekapPenjualanCafe08.java](RekapPenjualanCafe08.java)  
+[RekapPenjualanCafe08_Modifikasi.java (Tugas 3b Modifikasi)](RekapPenjualanCafe08_Modifikasi.java)  
 
 Contoh output:  
-![Tugas 3](T3Job12.png)
+![Tugas 3](T3Job12.png)  
+
+Output Modifikasi:  
+![Tugas 3B/Modifikasi](T3Job12_Modifikasi.png)  
   
 ---  
   
